@@ -136,10 +136,3 @@ Use test data in sandbox mode:
 Monitor test transactions in the [Stripe Dashboard](https://dashboard.stripe.com/test/dashboard).
 
 ---
-
-## Handling Errors
-
-After calling `presentPaymentSheet`, you can add:
-
-```dart
-await Stripe.instance.confirmPaymentSheetPayment();
