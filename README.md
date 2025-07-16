@@ -6,6 +6,11 @@ This guide demonstrates how to integrate Stripe payments within a Flutter applic
 
 ---
 
+## Configuration for iOS and Android
+Follow all the steps mentioned in the package: https://pub.dev/packages/flutter_stripe
+
+---
+
 ## What is a PaymentIntent?
 
 In Stripe, a `PaymentIntent` is an object that represents the entire process of collecting a payment from a customer.
