@@ -59,8 +59,6 @@ class StripeService {
   Future<void> _processPayment() async {
     try {
       await Stripe.instance.presentPaymentSheet();
-      await Stripe.instance.confirmPaymentSheetPayment();
-
       debugPrint("Payment successful");
     } catch (e) {
       debugPrint("Payment error $e from _processPayment()");
